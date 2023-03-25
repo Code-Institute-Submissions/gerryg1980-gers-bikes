@@ -10,6 +10,10 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px;
+
+   /* background-image: url("/assets/images/back-ground-image.jpg");
+    background-size: cover;
+    background-position: center;*/
 }
 
 nav {
@@ -98,22 +102,22 @@ nav ul li a {
     padding: 5px;
 }
 }
-/* Semantic markup */
 
-header, nav, ul, li, a, main, h1, h2, p, img, footer {
-    display: block;
-    }
-    
-Here are the descriptions of the pages of the website:
+footer {
+    height: 150px;
+}
 
-1. Home (index.html) - This page includes a welcome message, a main image, and brief information about Gers Bikes. It also includes links to the other pages of the website via the navigation menu.
+.social-networks {
+    text-align: center;
+}
 
-2. About Us (about.html) - This page includes information about the history and mission of Gers Bikes.
+.social-networks > li {
+    display: inline;
+}
 
-3. Bikes (bikes.html) - This page includes information about the different types of bikes that Gers Bikes offers, as well as an image of bikes.
-
-4. Accessories (accessories.html) - This page includes information about the different types of accessories that Gers Bikes offers, as well as an image of accessories.
-
-5. Contact Us (contact.html) - This page includes a contact form and information on how to get in touch with Gers Bikes.
-
-Note that I have not included code for pages 2-5 as I am assuming they will have similar structures as the Home page, but with different content. You can simply copy the HTML code from the Home page and change the content to match the respective pages.
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
