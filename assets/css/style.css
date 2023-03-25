@@ -17,6 +17,10 @@ header {
     background-position: center;*/
 }
 
+.active{
+    border-bottom: 1px solid #fff;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -223,18 +227,14 @@ footer {
 /* Video list styles */
 
 
-.video-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+#videos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
 
-  .video {
-    margin: 20px;
-    text-align: center;
-    /* width: 250px; set the width of the video container */
-    height: 0; /* set the initial height to zero */
-    padding-bottom: 100%; /* set the padding-bottom to 100% to make the height equal to the width */
-    position: relative;
-    overflow: hidden;
-  }
+#videos > iframe {
+    width: 100%;
+}
+
