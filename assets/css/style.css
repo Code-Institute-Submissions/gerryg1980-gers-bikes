@@ -70,8 +70,7 @@ img {
     height: auto;
 }
 
-
-
+/*styling for the footer of the pages with social media links*/
 .social-networks {
     text-align: center;
 }
@@ -113,7 +112,7 @@ footer {
     width: 100%;
 }
 
-/* Form */
+/* Contact Form styling*/
 
 .form-section {
     clear: left;
@@ -125,7 +124,7 @@ footer {
 
 .signup-form{
     margin: 150px 10% 0 0;
-    color: #fff;
+    color: #fafafa;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
@@ -168,8 +167,6 @@ footer {
      color:#f16c6b;
  }
 
-/* Media queries */
-
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
@@ -191,11 +188,6 @@ footer {
     #videos{
         column-count: 1;
     }
-}
-
-/* Media queries */
-
-@media only screen and (max-width: 768px) {
     main {
         padding: 10px;
     }
@@ -209,7 +201,8 @@ footer {
     }
 }
 
-@media only screen and (max-width: 480px) {
+/* For small screens sizes from 500px wide and down */
+@media only screen and (max-width: 500px) {
 nav {
 flex-direction: column;
 }
