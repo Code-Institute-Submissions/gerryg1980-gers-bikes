@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Gers Bikes</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Love Running club for runners in Dublin, Ireland. Urban running, trail running, Dublin docklands and phoenix park.">
+    <meta name="keywords" content="love running, run, running club, runners, ireland, dublin, sport, exercise">
+    <title>Love Running</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/contact2.css" type="text/css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -14,61 +21,42 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="tutorials.html">Tutorials</a></li>
                 <li><a href="contact-us.html" class="active">Contact Us</a></li>
-                <li><a href="contact-us2.html">Tutorials</a></li> 
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <h1>Contact Us</h1>
-        <p>Feel free to get in touch with us for any questions, feedback, or support.</p>
-        <div class="contact-container">
-            <div class="contact-info">
-                <p>Visit us at:</p>
-                <p>123 Main Street</p>
-                <p>New York, NY 10001</p>
-                <p>Call us at: (555) 555-5555</p>
-                <p>Email us at: info@gersbikes.com</p>
-            </div>
-            <div class="contact-form">
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone">
-                    
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                    
-                    <button type="submit">Send</button>
-                </form>
-            </div>
-        </div>
-
-    </div>
-    <footer class="contact-us-footer">
+    <section class="form-section">
+        <form method="#" action="" class="signup-form">
+            <h2>Tell us what you need!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            
+            <label for="sales">Sales</label>
+            <input type="radio" id="road" name="running_preference" value="sales" required>
+            <label for="service">Service</label>
+            <input type="radio" id="trail" name="running_preference" value="service" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Run!"><i class="fas fa-bicycle"></i>
+        </form>
+    </section>
+    <footer>
         <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-bicycle"></i></a></li>
         </ul>
     </footer>
-    <script src="https://kit.fontawesome.com/37b0c069d7.js" crossorigin="anonymous"></script>
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,47 +1,72 @@
-/* Styles for the form */
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  textarea {
-    height: 150px;
-    resize: none;
-  }
-  input[type="submit"] {
-    background-color: #f8bc40;
+.contact-section {
+    background-image: url('/assets/images/contact-us.jpg');
+    background-size: cover;
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  input[type="submit"]:hover {
-    background-color: #e0a32c;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
   }
   
-  /* Styles for the background image */
-  body {
-    background-image: url('/assets/images/bikes.jpg');
-    background-size: cover;
-    background-position: center;
-  } 
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .opening-hours {
+    width: 40%;
+  }
+  
+  .opening-hours h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .opening-hours p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  form {
+    width: 50%;
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #fff;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #000;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005F6B;
+  }
   
